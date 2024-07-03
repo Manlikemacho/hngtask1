@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(194, 221, 245);
+}
+
+[data-testid="header"] {
+    background-color: seagreen;
+    text-align: center;
+    text-shadow: 5px 5px 15px black;
+    padding: 20px;
+    font-size: 25px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+[data-testid="profile-picture"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+main{
+    max-width: 50%;
+    margin: auto;
+    border-radius: 40px;
+}
+
+[data-testid="cover"]{
+    background-color: beige;
+    border-radius: 40px;
+}
+
+
+[data-testid="cover1"] {
+    text-align: center;
+    background-color: aqua;
+    padding: 30px;
+    border-radius: 40px;
+    font-size: larger;
+
+}
+
+[data-testid="cover2"] {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 40px;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+
+li{
+    list-style-position: inside;
+}
+
+[data-testid="keywordLink"] {
+    padding: 30px;
+    color: gray;
+    font-size: larger;
+}
+
+[data-testid="hngLink"] {
+    color: gray;
+    font-size: larger;
+}
+
+[data-testid="scrapeanywebLink"] {
+    color: gray;
+    font-size: larger;
+}
+
+[data-testid="footer"] {
+    max-width: 100%;
+    background-color: seagreen;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
